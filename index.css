@@ -1,0 +1,35 @@
+ * {
+     display: flex;
+     justify-content: center;
+ }
+ 
+ body {
+     background-image: url('https://c.pxhere.com/photos/85/d2/connection_girls_hands_holding_hands_people-1510681.jpg!d');
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: cover;
+ }
+ 
+ .button {
+     margin: 0;
+     position: absolute;
+     top: 40%;
+     background-color: transparent;
+     border: 2px solid rgb(34, 37, 34);
+     color: black;
+     padding: 35px 62px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+     -webkit-transition-duration: 0.4s;
+     transition-duration: 0.4s;
+     cursor: pointer;
+ }
+ 
+ .button:hover {
+     background-color: rgb(179, 41, 64);
+     /* Green */
+     color: white;
+     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+ }

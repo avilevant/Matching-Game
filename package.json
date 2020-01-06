@@ -1,0 +1,15 @@
+{
+    "name": "matchgamefront",
+    "version": "1.0.0",
+    "description": "matchingGameApp",
+    "main": "index.js",
+    "scripts": {
+        "dev": "webpack"
+    },
+    "author": "aviLevant",
+    "license": "ISC",
+    "devDependencies": {
+        "webpack": "^4.41.5",
+        "webpack-cli": "^3.3.10"
+    }
+}
